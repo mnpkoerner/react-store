@@ -1,0 +1,14 @@
+CHECKLIST
+
+ABSTRACT -
+Build a full stack react app that emulates the experience of using a webstore
+Implement class components, functional components, and children in Build
+
+Things to build:
+Backend:
+ERD - Customer, Product, Order History
+
+Front End
+The 'store' - 9x9 grid of divs - name, photo, price, description
+The 'cart' - way to hold all selected items and 'purchase' them
+Order History - Select user, then use that to call a users order history

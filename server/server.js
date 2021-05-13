@@ -9,10 +9,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Route includes
-// const userRouter = require('./routes/user.router');
+const shell = require('./routes/shell.router');
 
 /* Routes */
-// app.use('/api/user', userRouter);
+app.use('/shell', shell);
 
 
 
